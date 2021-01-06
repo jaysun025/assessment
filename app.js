@@ -1,17 +1,17 @@
 let pluseBtn = document.getElementById('pluse')
 let minuseBtn = document.getElementById('minues')
-// let numberSlot = []
-// let numberTotal = []
+let numberSlot = 0
+let numberTotal = 0
 
 pluseBtn.addEventListener('click', addNumber)
 minuseBtn.addEventListener('click', subNumber)
 
-pluse.onclick = function addNumber(numberTotal, numberSlot) {
-   return pluseBtn + numberSlot
+function addNumber(numberSlot, numberTotal) {
+   total = numberSlot + numberTotal
 }
  addNumber(numberSlot + numberTotal)
 
-minues.onclick = function subNumber(numberTotal, numberSlot) {
-    return minuseBtn - numberSlot
+function subNumber(numberSlot, numberTotal) {
+    total = numberSlot - numberTotal
 }
 subNumbers(numberSlot - numberTotal)
